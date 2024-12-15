@@ -1,0 +1,1 @@
+function foo(a,b){if(typeof a === 'number' && typeof b === 'number'){return a+b;}else{return "Please provide valid numbers";}}console.log(foo(2,3));//5console.log(foo(2,"3"));//Please provide valid numbersconsole.log(foo("2",3));//Please provide valid numbersconsole.log(foo("2","3"));//Please provide valid numbers
